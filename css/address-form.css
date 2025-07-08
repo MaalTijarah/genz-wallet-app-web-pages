@@ -3,17 +3,19 @@ body {
 }
 
 input.form-control {
-  min-height: 40px !important;
+  min-height: 48px !important;
 }
 
-input.form-control:focus, textarea.form-control:focus, select.form-select:focus {
+input.form-control:focus,
+textarea.form-control:focus,
+select.form-select:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 
 .select2-container--bootstrap-5 .select2-selection {
   border-radius: 0.375rem !important;
-  min-height: 40px;
+  min-height: 48px;
   padding: 0.30rem;
   border: none !important;
   background-color: #eeeeee !important;
@@ -23,7 +25,9 @@ input.form-control:focus, textarea.form-control:focus, select.form-select:focus 
   /* box-shadow: 0 1px 0 0 #ced4da !important; */
 }
 
-input.form-control, textarea.form-control, select.form-select {
+input.form-control,
+textarea.form-control,
+select.form-select {
   border: none !important;
   background-color: #eeeeee !important;
   /* box-shadow: 0 1px 0 0 #ced4da !important; */
@@ -31,7 +35,7 @@ input.form-control, textarea.form-control, select.form-select {
 }
 
 .select2-container--bootstrap-5 .select2-selection__arrow {
-  height: 40px;
+  height: 48px;
   right: 10px;
   top: 50%;
   transform: translateY(-50%);
@@ -59,6 +63,7 @@ input.form-control, textarea.form-control, select.form-select {
 } */
 
 .btn-custom-submit {
+  height: 48px;
   background-color: #116EBE !important;
   border-color: #116EBE !important;
   color: #fff !important;
@@ -67,7 +72,8 @@ input.form-control, textarea.form-control, select.form-select {
   padding-right: 2rem !important;
 }
 
-.btn-custom-submit:hover, .btn-custom-submit:focus {
+.btn-custom-submit:hover,
+.btn-custom-submit:focus {
   background-color: #116EBE !important;
   border-color: #116EBE !important;
   color: #fff !important;
