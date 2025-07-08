@@ -1,0 +1,15 @@
+.btn-custom-submit {
+    background-color: #116EBE !important;
+    border-color: #116EBE !important;
+    color: #fff !important;
+    border-radius: 999px !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.btn-custom-submit:hover,
+.btn-custom-submit:focus {
+    background-color: #116EBE !important;
+    border-color: #116EBE !important;
+    color: #fff !important;
+}
